@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.title{
+	position: absolute;
+	top: 7%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	font-family: 'Allura', cursive;
+	border: 2px solid transparent;
+	color: #fab76b;
+	font-size: 90px;
+}
+
+.logo img{
+	
+	width: 100px;
+	height:auto;
+	position: relative;
+    margin: 10px 15px 15px 10px;
+
+	background-color: transparent;
+
+}
+header{
+	
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+
+}
+
+
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../e9.gif);
+	/*background-color: #FAF7F5;*/	
+	font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper{
+	margin-top: 10%;
+
+}
+.wrapper h1{
+	font-family: 'Allura', cursive;
+	font-size: 52px;
+	margin-bottom: 100px;
+	text-align: center;
+	color: #F1A42D;
+
+}
+
+/*.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	top: 25%;
+	background-color: transparent; 
+
+}*/
+
+.team{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.team .team-member{
+	background: Red;
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 20px;
+	line-height: 20px;
+	color: #F1A42D; 
+	position: relative;
+}
+.team .team-member h3{
+	color: white;
+	font-size: 25px;
+	margin-top: 50px;
+}
+.team .team-member p.role{
+	color: blue;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 12px 0;
+}

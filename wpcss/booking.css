@@ -1,0 +1,69 @@
+body{
+	font-family: sans-serif;
+	background-image: url('../un.jpg');
+	background-size: cover;
+}
+
+.csd{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+.booking_page{
+	
+		
+		width: 400px;
+		background-image: url('vb.gif');
+		box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+		background-color: white;
+		padding: 20px;
+		margin: 8% auto 0;
+		text-align: center;
+		margin-top: 20px;
+		border-radius: 20%;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+
+
+}
+img.avatar {
+  width: 15%;
+  border-radius: 15%;
+  border: 3px solid #0000;
+}
+form input{
+	  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid orange;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+}
+form label{
+	margin-left: 10px;
+}
+button {
+  
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border: 3px solid blue;
+  cursor: pointer;
+  width: 70%;
+  border-radius: 20px;
+}
+select{
+		  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid orange;
+  box-sizing: border-box;
+  border-radius: 20px;
+}

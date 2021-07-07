@@ -1,0 +1,29 @@
+body{
+	font-family: sans-serif;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(jk.jpg);
+	background-size: cover;
+	
+}
+
+h1{
+	color: #F2B057;
+	text-align: center;
+	margin: 30px, o ,50px;
+}
+.gallery{
+	margin: 10px, 50px;
+	text-align: center;
+}
+.gallery img{
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	filter: grayscale();
+	transition: 1s;
+}
+.Gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+
+}
